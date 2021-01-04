@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "strapi-admin@3.4.1",
+      "/Users/trevordebardeleben/Repos/portfolio-temp/backend"
+    ]
+  ],
   "_from": "strapi-admin@3.4.1",
   "_id": "strapi-admin@3.4.1",
   "_inBundle": false,
@@ -25,16 +31,14 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/strapi-admin/-/strapi-admin-3.4.1.tgz",
-  "_shasum": "9cf81295aab4131fb0d09e40b1fea39ae069cc8a",
-  "_spec": "strapi-admin@3.4.1",
-  "_where": "/home/trevor/portfolio/backend",
+  "_spec": "3.4.1",
+  "_where": "/Users/trevordebardeleben/Repos/portfolio-temp/backend",
   "author": {
     "name": "Strapi"
   },
   "bugs": {
     "url": "https://github.com/strapi/strapi-admin/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "@babel/core": "^7.12.3",
     "@babel/plugin-proposal-async-generator-functions": "^7.10.5",
@@ -131,7 +135,6 @@
     "webpackbar": "^4.0.0",
     "yup": "^0.27.0"
   },
-  "deprecated": false,
   "description": "Strapi Admin",
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
