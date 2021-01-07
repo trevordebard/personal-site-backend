@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "tags",
+  "collectionName": "demo_images",
   "info": {
-    "name": "Tag",
+    "name": "DemoImage",
     "description": ""
   },
   "options": {
@@ -11,17 +11,20 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "name": {
-      "type": "string"
+    "description": {
+      "type": "string",
+      "required": true
     },
-    "logo": {
-      "collection": "file",
+    "image": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images"
+        "files",
+        "images",
+        "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     }
   }
 }

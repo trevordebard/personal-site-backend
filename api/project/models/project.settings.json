@@ -30,6 +30,20 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "link": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "demo_images": {
+      "collection": "demo-image"
+    },
+    "code_link": {
+      "type": "string"
     }
   }
 }
