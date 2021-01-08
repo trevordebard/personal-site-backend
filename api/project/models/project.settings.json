@@ -12,10 +12,13 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "string"
+      "type": "text",
+      "required": true,
+      "maxLength": 270
     },
     "tags": {
       "collection": "tag"
@@ -33,6 +36,11 @@
     },
     "code_link": {
       "type": "string",
+      "required": true
+    },
+    "order": {
+      "type": "integer",
+      "unique": true,
       "required": true
     }
   }

@@ -12,13 +12,16 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "company": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "tags": {
       "collection": "tag"
@@ -39,10 +42,17 @@
       "required": true
     },
     "start_date": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "end_date": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "order": {
+      "type": "integer",
+      "required": true,
+      "unique": true
     }
   }
 }
